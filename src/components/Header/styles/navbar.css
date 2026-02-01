@@ -1,25 +1,28 @@
 .nav__link {
   position: relative;
-  background-color: green;
 }
 
 .nav__link a {
   display: inline-block;
   padding: 2px 8px 5px;
-  background-color: hsl(0 0% 96% / 1);
   border-radius: 5px;
   margin: 5px;
+  color: hsl(0 0% 30% / 1);
+}
+
+.nav__link a:hover {
+  color: black;
+  background-color: hsl(0 0% 96% / 1);
 }
 
 .dropdown__menu {
+  background-color: hsl(0 0% 100% / 1);
   position: absolute;
   top: 100%;
   left: 0;
   min-width: max-content;
-  border-radius: 10px;
   opacity: 0;
   visibility: hidden;
-  background-color: yellow;
 }
 
 .submenu {
@@ -27,10 +30,10 @@
   top: 0;
   left: 100%;
   min-width: max-content;
-  border-radius: 10px;
   opacity: 0;
   visibility: hidden;
-  background-color: crimson;
+  background-color: hsl(0 0% 100% / 1);
+  transition: all 0.3s ease-in-out;
 }
 
 .nav__link:hover > .dropdown__menu,
