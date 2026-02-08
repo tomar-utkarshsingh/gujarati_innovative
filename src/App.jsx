@@ -10,6 +10,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 const App = () => {
   const pagination = {
     clickable: true,
+    dynamicBullets: true,
   };
 
   return (
@@ -50,7 +51,8 @@ const App = () => {
                 <img src={logo} alt="" />
               </div>
               <h1 className="hero__title">
-                Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College of
+                Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College of{" "}
+                <br />
                 Commerce & Science
               </h1>
             </div>

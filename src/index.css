@@ -39,7 +39,8 @@ img {
 
 [class^="hero__banner-"] {
   position: relative;
-  height: 650px;
+  /* height: 650px; */
+  height: clamp(11.25rem, -3.4375rem + 58.75vw, 40.625rem);
 }
 
 [class^="hero__banner-"] img {
@@ -78,7 +79,21 @@ img {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 20px;
   font-weight: 900;
-  width: 50ch;
+  width: auto;
+  max-width: 50ch;
+  line-height: 1.1;
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .hero__slider {
+    display: none;
+  }
+
+  .hero__text {
+    flex-direction: column;
+  }
 }
