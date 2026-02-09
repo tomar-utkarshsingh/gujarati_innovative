@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* 
 * {
   transition-behavior: allow-discrete;
@@ -80,12 +81,11 @@ img {
     "Helvetica Neue",
     sans-serif;
   /* font-size: 38px; */
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   width: auto;
   max-width: 50ch;
   line-height: 1.1;
-  text-align: center;
 }
 
 @media (max-width: 420px) {
@@ -95,5 +95,20 @@ img {
 
   .hero__text {
     flex-direction: column;
+    padding-block: 25px;
+    gap: 15px;
+  }
+
+  .hero__logo {
+    width: 120px;
+  }
+
+  .hero__title {
+    text-align: center;
+  }
+
+  .campus-intro__title {
+    font-weight: 700;
+    font-size: 26px;
   }
 }

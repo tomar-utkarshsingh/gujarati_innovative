@@ -51,11 +51,29 @@ const App = () => {
                 <img src={logo} alt="" />
               </div>
               <h1 className="hero__title">
-                Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College of{" "}
+                Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College of
                 <br />
                 Commerce & Science
               </h1>
             </div>
+          </div>
+        </section>
+        <section className="campus-intro">
+          <div className="container">
+            <h2 className="campus-intro__title">Welcome To Our Campus</h2>
+            <h3 className="campus-intro__subtitle">
+              A place where career meets guidance and weakness becomes strength
+            </h3>
+            <p className="campus-intro__desc">
+              Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College Of
+              Commerce and Science is a new branch of Shri Gujarati Samaj, a
+              highly dedicated and renowned social organization of the city.
+              Gujarati Samaj Education Society established S.J.H.S.I.C.C.S
+              College in 2006, which is an important identity belonging to the
+              Gujarati Samaj Indore. SJHS Gujarati Innovative College Of
+              Commerce and Science is located in the prime location of Indore,
+              near Bombay hospital with large campus.
+            </p>
           </div>
         </section>
       </main>
