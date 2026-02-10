@@ -5,7 +5,10 @@ const App = () => {
       <main>
         <section className="hero">
           <div className="container">
-            <h1 className="hero__title">Gujarati Samaj Innovative College</h1>
+            <h1 className="hero__title">
+              Shri Jayantilal Hirachand Sanghvi Gujarati Innovative College of
+              Commerce and Science
+            </h1>
           </div>
         </section>
       </main>
