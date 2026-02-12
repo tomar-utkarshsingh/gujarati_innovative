@@ -91,6 +91,7 @@ ul {
   text-align: center;
   gap: 15px;
   padding-top: 15px;
+  padding-inline: 15px;
 }
 
 .features__list-item {
@@ -100,8 +101,38 @@ ul {
   font-size: 18px;
   background-color: hsl(213 86% 20% / 1);
   color: white;
+  position: relative;
+}
+
+.features__list-item::after {
+  content: "";
+  width: 5px;
+  height: 16px;
+  background-color: hsl(213 86% 20% / 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.features__list-item:last-child::after {
+  display: none;
 }
 
 .latest-post {
   padding-block: 50px 0;
+}
+
+.latest-post__all-posts {
+  border: 1px solid black;
+  height: 350px;
+  margin-block: 15px;
+  border-radius: 10px;
+}
+
+.latest-post__info {
+  padding-left: 15px;
 }
