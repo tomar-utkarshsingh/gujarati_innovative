@@ -42,9 +42,9 @@ const App = () => {
             <h2 className="features__title">Features</h2>
             <h3 className="features__subtitle">What campus offers:</h3>
             <ul className="features__list">
-              <li className="features__list-item">Scholarship Facility</li>
-              <li className="features__list-item">Skilled Faculties</li>
-              <li className="features__list-item">Anti-Ragging Support</li>
+              <li className="features__list-item"> 🟡 Scholarship Facility</li>
+              <li className="features__list-item"> 🎓 Skilled Faculties</li>
+              <li className="features__list-item"> 🛡️ Anti-Ragging Support</li>
             </ul>
           </div>
         </section>
