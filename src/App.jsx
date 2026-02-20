@@ -42,25 +42,33 @@ const App = () => {
             <h2 className="features__title">Features</h2>
             <h3 className="features__subtitle">What campus offers:</h3>
             <ul className="features__list">
-              <li className="features__list-item"> 🟡 Scholarship Facility</li>
-              <li className="features__list-item"> 🎓 Skilled Faculties</li>
-              <li className="features__list-item"> 🛡️ Anti-Ragging Support</li>
-            </ul>
-          </div>
-        </section>
-        <section className="latest-post">
-          <div className="container">
-            <h2 className="latest-post__title">Latest Posts</h2>
-            <div className="latest-post__all-posts">
-              <div className="latest-post__post">
-                <div className="latest-post__img">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAALVBMVEXz9Pa5vsq2u8j29/jN0dno6u7V2N++ws3w8fTf4efi5OnFydPY2+HJztbR1txPmUB/AAAC0klEQVR4nO3b55aqMBiFYUoioXn/l3ukKSVBJGH4ctb7/JxRVrYbCDVJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArPLQ7g60YnSjwmoqc3eouarOwmsrOT026TXKu4NNyosCioloissSFndn6+VlNgwn6EY4LrKUsCnm7TCaNuiudFqoiIT9Spo9Ak+Hj77GWsKUMSasAi+2lJMwIeE5JPxLtoRGa8+xiU5YqX5urBuf4UlO+Eyn+br2OHaWm9DU2eeoK2tOL1Vuwucs4Is+u1SxCctlwLQ4O0SpCfN6fXpw9thZakK9qjDN1MmlSk24Xkm/jdG9sxWaMG82CXc3ROXe2UpN+PgpYbffbRwtCk3421qqug+7WpSa0Pywp5lmTnuLUhNaZgvHt4yafgx7i1ITbq4sOoeoZm3bWhSbcDHyF8d0YNRiVba0KDdhMj/yTl2Twep3sLQoOOGrnmn4hePEf9mg/acQnDDJK1V013Trh3HMdesGbS1KTpj0FzG0cQ3O0qClReEJd9ka3LYYb0LzdARcRYw3oavB9YoabUJ3g6sWY0241+CyxUgSmtWFqP0GFy3GkVCnhZ7vPdqvAT8txpAw10WazYf4vcFZizEk1P3fPy0eabD7xnC+JT9h12D/j3o8djvWYH83ufu4/IT6PeKhxYMNdqdSUSScGny3eLTBaBLqxaAL/W0ejC3hvMEh4uF8kSTU+xmiT7hp8L9L6NVgBAk9G4wgoWeD4hN6Nyg+oXeD0hPmxw9dYk24vX9IQhLem21AQhKS8H6hE8q+TtPdVvM1hJKaMBwS/iUSnpILSji+FaTCvgk83oer707XmR70uuTdNSXh3bX384hXvH8Yeus+x2ye1gtGxjukSVJdllBGhUn3QKL/wdpWJmQd7em2CLoV9ltiq0XsZia6fITVCCoQAAAAAAAAAAAAAAAAAAAAAAAAAAAAuMU/B0kslFd7c1EAAAAASUVORK5CYII="
-                    alt=""
-                  />
+              <li className="features__list-item">
+                <div className="d-flex flex-column align-items-center gap-1">
+                  <h6>🟡 Scholarship Facility</h6>
+                  <p className="features__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis velit modi Ratione.
+                  </p>
                 </div>
-              </div>
-            </div>
+              </li>
+              <li className="features__list-item">
+                <div className="d-flex align-items-center flex-column">
+                  <h6>🎓 Skilled Faculties</h6>
+                  <p className="features__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt, rem?
+                  </p>
+                </div>
+              </li>
+              <li className="features__list-item">
+                <div className="d-flex flex-column align-items-center">
+                  <h6>🛡️ Anti-Ragging Support</h6>
+                  <a className="features__report" href="#">
+                    Anti-Ragging Report
+                  </a>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
       </main>
