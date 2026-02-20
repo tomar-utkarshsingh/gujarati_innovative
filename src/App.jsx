@@ -59,15 +59,6 @@ const App = () => {
                     alt=""
                   />
                 </div>
-                <div className="latest-post__info">
-                  <h4 className="latest-post__label">Lorem Ipsum</h4>
-                  <div className="d-flex gap-3 mt-2">
-                    <span className="latest-post__date">8 Jan 2026</span>
-                    <a className="latest-post__view-btn" href="#">
-                      View
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
